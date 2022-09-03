@@ -1,4 +1,5 @@
 import React from 'react';
+import Imageslider from './Imageslider'
 
 const Home = () => {
     return (
@@ -18,8 +19,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
-        </div>    
+
+        </div> 
+        <Imageslider/>   
         </>
     );
 }

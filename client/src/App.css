@@ -219,9 +219,16 @@ label{
         border-radius: 5px;
 }
 .homepage{
-    background-image:url("C:/Users/Hithesh Patel/Desktop/car website/client/src/images/car3.jpg");
+    background-image:url("C:/Users/Hithesh Patel/Desktop/git/Car-website/client/src/images/car3.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     height:130vh;
+
     
+}
+
+/*imageslider*/
+.carimg{
+    height:100vh;
+    object-fit: contain;
 }
