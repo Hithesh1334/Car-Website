@@ -1,0 +1,606 @@
+.logo{
+    border-radius: 30px;
+    box-shadow: 0 12px 15px -6px rgba(0, 0, 0, 0.318);
+    border:1px solid rgba(123, 4, 4, 0.365);
+    object-fit: cover;
+}
+.logo:hover{
+    box-shadow: 0 0px 15px -6px rgb(13, 13, 13);
+    transition-duration: 0.6s;
+    
+}
+.main-body{
+    
+    height:130vh
+}
+/*login page*/
+.signin-box{
+  background-image:url('C:/Users/Hithesh Patel/Desktop/git/Car-website/client/src/images/car8.jpg');
+  background-size: cover;
+  height:130vh;
+  padding:50px;
+
+}
+.signin{
+    background-color: rgba(255, 255, 255, 0.451);
+    margin-top:50px;
+    margin-left:20%;
+    margin-right: 20%;
+    border-radius:15px;
+    padding:20px;
+    height:60vh;
+    box-shadow: 1px 0px 10px -1px rgba(126, 126, 126, 0.479);
+    border-bottom: 3px solid;
+    border-top: 9px solid red;
+    
+}
+.signin:hover{
+    
+    transition-duration: 0.6s;
+}
+
+.signin-content{
+    display:flex;
+}
+.signin-image{
+    margin-left:30px;
+    margin-right:70px;
+    text-align: center  ;
+}
+.signinImage{
+    border-radius:50px;
+    object-fit:cover;
+    margin-top:-40px;
+}
+.signup-image-link{
+    color:red;
+    text-decoration:none;
+    
+}
+.signin-form{
+    padding:20px;
+    margin-top:-30px;
+}
+.form-title{
+    text-align:center;
+    margin-top:-20px;
+}
+.form-group{
+    padding:20px;
+  
+}
+label{
+    margin:5px;
+}
+#email,#password,#signin,#work,#phone,#Cpassword,#contact,#name,#signup{
+    border:none;
+    border-bottom:3px solid ;
+    width:15em;
+    border-radius:5px;
+    background-color: rgb(127, 209, 234);
+}
+#password,#Cpassword{
+    width:15.28em ;
+}
+#signin,#signup{
+    width:5em;
+    margin-left: 20px;
+}
+
+/*signup page*/
+.signup-box{
+  background-image:url('C:/Users/Hithesh Patel/Desktop/git/Car-website/client/src/images/car7.jpg');
+  background-size: cover;
+  height:130vh;
+  padding:50px;
+}
+.signup-content{
+    display:flex;
+    background-color: rgba(255, 255, 255, 0.675);
+    border-radius: 15px;
+    border-bottom: 3px solid;
+    border-top: 9px solid red;
+    justify-content: center;
+    margin-left:100px;
+    margin-right:100px;
+    height:90vh;
+    box-shadow: 1px 0px 10px -1px rgba(126, 126, 126, 0.479);
+}
+.signup-form{
+    margin-left:10px;
+    margin-right:30px; 
+    margin-top:30px; 
+}
+.signup-image{
+    margin-top:170px;
+    text-align:center;
+}
+.signupImage{
+    margin-top:-120px;
+}
+
+/*home page*/
+.home-page{
+    text-align:center;
+   
+    height:100vh;
+    
+}
+
+/*contact page*/
+.contact-main{
+  background-color: rgb(125, 157, 182);
+  background-image: url('https://www.pngall.com/wp-content/uploads/2018/04/Luxury-Car-Download-PNG.png');
+  margin-top:-100px;
+  background-size: cover;
+  /* height: 110vh; */
+}
+.contact-info{
+    margin-top:100px;
+    padding-top:100px;
+}
+.contact-form{
+  background-color: rgba(255, 255, 255, 0.418);
+  margin-right:200px;
+  margin-left: 200px;
+  margin-top:100px;
+  border-radius:20px;
+}
+.contact-info-item{
+    box-shadow: 1px 0px 10px -1px rgba(126, 126, 126, 0.479);
+    border-bottom: 2px solid;
+    border-top: 9px solid red;
+    background-color:#fff;
+    padding:15px;
+    border-radius: 5px;
+    width:25%;
+    display:flex;
+}
+.contact-info-outer{
+    
+    display: flex;
+    justify-content:"between";
+}
+.logo-info{
+    margin-left:20px;
+    margin-right:50px;
+}
+.contact-form-title{
+    margin:10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration:overline;
+}
+#contact-form-name,#contact-form-email,#contact-form-phone{
+    border:none;
+    border-bottom:3px solid ;
+    width:15em;
+    height:2em;
+    border-radius:5px;
+    margin:7px;
+    border-right: 2px solid;
+    
+}
+.text-field{
+    border:none;
+    border-bottom:3px solid;
+    box-shadow: 1px 0px 10px -1px rgba(126, 126, 126, 0.479);
+    margin:10px; 
+    border-radius: 5px;
+    border-top: 9px solid red;
+}
+.button{
+    border:none;
+    border-bottom:3px solid ;
+    width:8em;
+    border-radius:5px;
+    margin-left:10px;
+}
+
+/*HOME PAGE*/
+.animate-charcter
+{
+    text-transform: uppercase;
+    
+    background-image: linear-gradient(-225deg, #4b23db 0%, #5911a6 19%,#ff1361 67%,#fff800 100%);
+    /* background-size: auto auto;
+    background-clip: border-box;*/
+    background-size: 200% auto; 
+    color: rgba(255, 255, 255, 0);
+   
+    margin-top:-10px;
+    height:14px;
+    text-fill-color: transparent;
+    
+    /*-webkit-text-fill-color: transparent; /*TO MAKE WHITE TEXT TO TRANSPERENT*/
+    animation: textclip 4s linear ;
+    display: inline-block;
+    font-size: 60px;
+    font-weight: bold;
+    
+    
+}
+.animate-charcter2{
+    text-transform: uppercase;
+    
+    background-image: linear-gradient(-225deg, #4b23db 0%, #5911a6 15%,#ff1361 67%,#fff800 100%);
+    /* background-size: auto auto;
+    background-clip: border-box;*/
+    background-size: 200% auto; 
+    color: rgba(255, 255, 255, 0);
+    background-clip: text;
+    margin-top:-80px;
+    margin-bottom: 70px;
+    text-fill-color: transparent;
+   
+    -webkit-background-clip: text;
+    /*-webkit-text-fill-color: transparent; /*TO MAKE WHITE TEXT TO TRANSPERENT*/
+    animation: textclip 4s linear ;
+    display: inline-block;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.home-body{
+        border-radius: 5px;
+}
+.homepage{
+    background-image: url("C:/Users/Hithesh Patel/Desktop/git/Car-website/client/src/images/car3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:130vh;
+
+    
+}
+
+/*imageslider*/
+.carimg{
+    height:100vh;
+    object-fit: contain;
+    color:black;
+}
+
+/*booking*/
+.booking__form {
+    width: 47.5%;
+  }
+  
+  .booking__form input {
+    padding: 8px 15px;
+    border: 1px solid #7c8a972a;
+    color: #7c8a97;
+    width: 100%;
+  }
+  
+  .booking__form select,
+  .textarea {
+    width: 100%;
+    padding: 10px 15px;
+    color: #7c8a97;
+    border: 1px solid #7c8a972a;
+    border-radius: 4px;
+  }
+  
+  .time__picker::before {
+    content: "Journey Time";
+    color: #7c8a97;
+    margin-right: 0.5rem;
+  }
+  
+  .textarea:focus,
+  .booking__form input:focus,
+  .booking__form select:focus {
+    outline: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .booking__form {
+      width: 100%;
+    }
+  
+    .booking__form input,
+    .textarea,
+    .booking__form select {
+      font-size: 0.8rem;
+    }
+  }
+  
+/*car item*/
+.car__item {
+    border: 1px solid #7c8a9736;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .car__item-info span i {
+    color: #f9a826;
+    font-size: 1.1rem;
+  }
+  
+  .car__item-btn {
+    border-radius: 0;
+    border: none;
+    outline: none;
+    background: #000d6b;
+    padding: 8px 0px;
+  }
+  
+  .car__item-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .car__item-btn a:hover {
+    color: #fff;
+  }
+  .car__btn-details {
+    background: #f9a826;
+    border-radius: 0px 4px 4px 0px;
+  }
+  
+  .car__btn-rent {
+    border-radius: 4px 0px 0px 4px;
+  }
+  
+  .car__item-content h4 {
+    font-size: 1.8rem;
+  }
+  
+  .car__item-content h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .car__item h4 {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+    }
+  
+    .car__item h6 {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+  
+    .car__item-info {
+      flex-wrap: wrap;
+    }
+  
+    .car__item-info span {
+      font-size: 0.8rem;
+      justify-content: space-between;
+    }
+  
+    .car__item-btn {
+      padding: 5px 10px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .car__item h4 {
+      font-size: 1rem;
+    }
+  
+    .car__item h6 {
+      font-size: 0.9rem;
+    }
+  
+    .car__item-info span {
+      font-size: 0.7rem;
+    }
+  
+    .car__item-info span i {
+      font-size: 0.9rem;
+    }
+  
+    .car__item-btn {
+      font-size: 0.8rem;
+    }
+  }
+/*common-section*/
+.common__section {
+    background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6)),
+      url("C:/Users/Hithesh Patel/Desktop/git/Car-website/client/src/images/car3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+  }
+  
+/*commonsection*/
+@import url("https://fonts.googleapis.com/css?family=Raleway:400");
+
+* {
+  box-sizing: border-box;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: '<percentage>';
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: '<percentage>';
+  initial-value: 0%;
+  inherits: true;
+}
+
+/* body {
+  
+  margin: 0;
+  padding: 1rem;
+  
+  
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+} */
+
+p {
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  margin: 0;
+  color: white;
+  align-items: center;
+}
+
+:root {
+  --d: 2500ms;
+  --angle: 90deg;
+  --gradX: 100%;
+  --gradY: 50%;
+  --gradZ: 25%;
+  --c1: rgb(255, 203, 168);
+  --c2: rgba(255, 168, 254, 0.448);
+  --c3: rgba(169, 255, 168, 0.738);
+}
+
+.wrapper {
+  min-width: min(40rem, 100%);
+}
+
+.box {
+  font-size: 3vw;
+  margin: max(1rem, 3vw);
+  border: 0.35rem solid;
+  padding: 0.1vw;
+  border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn, var(--c3) 0.5turn) 30;
+  animation: borderRotate var(--d) linear infinite forwards;
+}
+
+.box:nth-child(2) {
+  border-image: radial-gradient(ellipse at var(--gradX) var(--gradY) var(--gradZ), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
+  animation: borderRadial var(--d) linear infinite forwards;
+
+}
+
+@keyframes borderRotate {
+  100% {
+    --angle: 420deg;
+  }
+}
+
+@keyframes borderRadial {
+  20% {
+    --gradX: 100%;
+    --gradY: 50%;
+  }
+  40% {
+    --gradX: 100%;
+    --gradY: 100%;
+  }
+  60% {
+    --gradX: 50%;
+    --gradY: 100%;
+  }
+  80% {
+    --gradX: 0%;
+    --gradY: 50%;
+  }
+  100% {
+    --gradX: 50%;
+    --gradY: 0%;
+  }
+}
+
+/*payment methods */
+.payment label {
+  font-weight: 600;
+  color: #000d6b;
+}
+
+.payment button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background: #000d6b;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+/*cardetails*/
+.section__description{
+  color:black;
+}
+
+/* typesofcarehomepage */
+.typesofcar-main{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/005/484/215/non_2x/super-car-logo-free-vector.jpg');
+  background-size: cover;
+}
+.col.header{
+  background-color: rgba(0, 174, 255, 0.729);
+  padding:20px;
+  margin-top:10px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-weight:bold;
+}
+.col.category{
+  background-color: rgba(179, 237, 255, 0.46);
+  height:40vh;
+  border-radius: 5px;
+  border: 1px solid;
+  font-weight:bold;
+}
+.car-type-imagae{
+  margin-top:-30px ;
+  object-fit:contain;
+}
+
+/* separator */
+.seperator{
+  background-color:rgba(119, 125, 211, 0.885);
+  height:6vh;
+  /* padding:10px; */
+  padding-left:30px;
+  margin-top:10px;
+  margin-right:900px;
+  justify-content:center;
+  font-weight: bold;
+  font-size:30px;
+}
+
+/* brand  */
+.brand-main{
+  margin-top:10px;
+  
+}
+.card.img{
+  width: 18rem;
+  transition-delay: 0.3s;
+  justify-content:center;
+}
+.card.img:hover{
+  box-shadow: 2px 2px 2px 1px  rgba(7, 7, 7, 0.403);
+  padding:1px;
+  transition-delay: 0.3s;
+  
+}
+
+/* car  */
+.car-main{
+  margin:20px;
+}
+.card.car-img{
+  width: 18rem;
+}
+.card-text{
+  color:black;
+}
